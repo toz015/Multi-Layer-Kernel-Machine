@@ -266,15 +266,15 @@ splkermodel.GradientBand(splker_trainloss,train_x,train_y,test_x,test_y, batch)
 | California Housing | 20,640 | 8 | from sklearn.datasets import fetch_california_housing   |
 | Dry Bean | 13,611 | 16 | http://archive.ics.uci.edu/dataset/602/dry+bean+dataset |
 
-We carry our the experiment on the full YearPredictionMSD dataset using the [AutoDL platform](https://www.autodl.com).
+We carry out the full YearPredictionMSD dataset experiment using the [AutoDL platform](https://www.autodl.com).
 
 
 ### Raw examples
 
-See experiments in [Simulation & Real Data Analysis](https://github.com/ZZZhyEva/Multi-Layer-Kernel-Machines/tree/main/Simulations%20%26%20Real%20Data%20Analysis) folder.
+Direct implementation of the raw experiments are available. See experiments in [Simulation & Real Data Analysis](https://github.com/ZZZhyEva/Multi-Layer-Kernel-Machines/tree/main/Simulations%20%26%20Real%20Data%20Analysis) folder. Run them directly.
 
 ### Package examples
 
-Follow the module instruction. A complete example is in [package example usage(MSD).ipynb](https://github.com/ZZZhyEva/Multi-Layer-Kernel-Machines/blob/main/package%20example%20usage(MSD).ipynb). You can run it with either cpu or gpu.
+Install our package and follow the module instruction. A complete example is in [package example usage(MSD).ipynb](https://github.com/ZZZhyEva/Multi-Layer-Kernel-Machines/blob/main/package%20example%20usage(MSD).ipynb). You can run it with either cpu or gpu.
 
 
