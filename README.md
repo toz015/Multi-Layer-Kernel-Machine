@@ -275,6 +275,6 @@ See experiments in [Simulation & Real Data Analysis](https://github.com/ZZZhyEva
 
 ### Package examples
 
-Follow the module instruction and [package example usage(MSD).ipynb](https://github.com/ZZZhyEva/Multi-Layer-Kernel-Machines/blob/main/package%20example%20usage(MSD).ipynb)
+Follow the module instruction. A complete example is in [package example usage(MSD).ipynb](https://github.com/ZZZhyEva/Multi-Layer-Kernel-Machines/blob/main/package%20example%20usage(MSD).ipynb). You can run it with either cpu or gpu.
 
 
