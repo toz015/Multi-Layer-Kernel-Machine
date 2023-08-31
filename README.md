@@ -266,7 +266,7 @@ splkermodel.GradientBand(splker_trainloss,train_x,train_y,test_x,test_y, batch)
 | California Housing | 20,640 | 8 | from sklearn.datasets import fetch_california_housing   |
 | Dry Bean | 13,611 | 16 | http://archive.ics.uci.edu/dataset/602/dry+bean+dataset |
 
-The experiment on the full YearPredictionMSD dataset is carried out using the [AutoDL platform](https://www.autodl.com).
+We carry our the experiment on the full YearPredictionMSD dataset using the [AutoDL platform](https://www.autodl.com).
 
 
 ### Raw examples
