@@ -255,7 +255,9 @@ splker_trainloss,splker_testloss,splker_prediction = splkermodel.fitting(train_x
 splkermodel.GradientBand(splker_trainloss,train_x,train_y,test_x,test_y, batch)
 ```
 
-## Data
+## Reproducing Experiments
+
+### Data 
 
 | Datasets | Instances |  Attributes | Source |
 | --- | --- | --- | --- |
@@ -264,7 +266,15 @@ splkermodel.GradientBand(splker_trainloss,train_x,train_y,test_x,test_y, batch)
 | California Housing | 20,640 | 8 | from sklearn.datasets import fetch_california_housing   |
 | Dry Bean | 13,611 | 16 | http://archive.ics.uci.edu/dataset/602/dry+bean+dataset |
 
-The experiment on the full YearPredictionMSD dataset is carried out using the AutoDL platform [https://www.autodl.com].
+The experiment on the full YearPredictionMSD dataset is carried out using the [AutoDL platform](https://www.autodl.com).
 
+
+### Raw examples
+
+See experiments in [Simulation & Real Data Analysis](https://github.com/ZZZhyEva/Multi-Layer-Kernel-Machines/tree/main/Simulations%20%26%20Real%20Data%20Analysis) folder.
+
+### Package examples
+
+Follow the module instruction and [package example usage(MSD).ipynb](https://github.com/ZZZhyEva/Multi-Layer-Kernel-Machines/blob/main/package%20example%20usage(MSD).ipynb)
 
 
