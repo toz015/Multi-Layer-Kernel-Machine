@@ -246,7 +246,7 @@ train_loaderset,netset,optimizerset=GenerateSplit(2,device,net,8e-4,0.9,1e-4,tra
         - coverage : %, confidence interval 95% coverage
 **Example:**
 ```python
-#(continue) ...
+#(continue the above) ...
 from DataSplitting import DataSplitting
 train_loaderset,netset,optimizerset=GenerateSplit(2,device,net,8e-4,0.9,1e-4,train_x,train_y, batch,init_weights)
 
