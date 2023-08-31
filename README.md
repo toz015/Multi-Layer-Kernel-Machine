@@ -2,7 +2,7 @@
 
 ## About
 
-This is a package for the implementation of the Multi-Layer Kernel Machines (MLKM), which are used for multi-scale nonparametric regression and confidence bands estimation. The method integrates random feature projections with multi-layer structure.
+This is a project for the implementation of the Multi-Layer Kernel Machines (MLKM), which are used for multi-scale nonparametric regression and confidence bands estimation. The method integrates random feature projections with multi-layer structure.
 
 ## Dependencies
 - numpy, pandas, matplotlib, tqdm, scikit-learn
