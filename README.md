@@ -4,6 +4,10 @@
 
 This is a package for the implementation of the Multi-Layer Kernel Machines (MLKM), which are used for multi-scale nonparametric regression and confidence bands estimation. The method integrates random feature projections with multi-layer structure.
 
+## Dependencies
+- numpy, pandas, matplotlib, tqdm, scikit-learn
+- torch
+
 ## Module
 
 ### Mydataset
@@ -261,3 +265,6 @@ splkermodel.GradientBand(splker_trainloss,train_x,train_y,test_x,test_y, batch)
 | Dry Bean | 13,611 | 16 | http://archive.ics.uci.edu/dataset/602/dry+bean+dataset |
 
 The experiment on the full YearPredictionMSD dataset is carried out using the AutoDL platform [https://www.autodl.com].
+
+
+
