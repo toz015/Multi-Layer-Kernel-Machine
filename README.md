@@ -6,7 +6,7 @@ This is a project for the implementation of the Multi-Layer Kernel Machines (MLK
 
 ## Dependencies
 - numpy, pandas, matplotlib, tqdm, scikit-learn
-- torch
+- pytorch
 
 ## Module
 
