@@ -8,7 +8,7 @@ This is a project for the implementation of the Multi-Layer Kernel Machines (MLK
 
 `pip install Multi-Layer-Kernel-Machine`
 
-See [our package in PyPi](https://pypi.org/project/Multi-Layer-Kernel-Machine/).
+See [the package in PyPi](https://pypi.org/project/Multi-Layer-Kernel-Machine/).
 
 ## Dependencies
 - numpy, pandas, matplotlib, tqdm, scikit-learn
@@ -277,7 +277,7 @@ We carry out the full YearPredictionMSD dataset experiment using the [AutoDL pla
 
 ### Raw examples
 
-Direct implementation of the raw experiments are available. See experiments in [Simulation & Real Data Analysis](https://github.com/ZZZhyEva/Multi-Layer-Kernel-Machines/tree/main/Simulations%20%26%20Real%20Data%20Analysis) folder. Run them directly.
+Direct implementation of the raw experiments is available. See experiments in [Simulation & Real Data Analysis](https://github.com/ZZZhyEva/Multi-Layer-Kernel-Machines/tree/main/Simulations%20%26%20Real%20Data%20Analysis) folder. Run them directly.
 
 ### Package examples
 
