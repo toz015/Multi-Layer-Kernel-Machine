@@ -10,6 +10,7 @@ class Net(nn.Module):
     layer_sizes : list (length>=3)
         Neuron numbers in each layer, 
         including input and output layer
+    device : "cpu" or "cuda"
     """
     
     def __init__(self, layer_sizes,device): 
@@ -50,6 +51,7 @@ class ResNet(nn.Module):
     layer_sizes : list (length>=3)
         Neuron numbers in each layer, 
         including input and output layer
+    device : "cpu" or "cuda"
     """
     
     def __init__(self, layer_sizes,device):
@@ -79,6 +81,7 @@ class KernelNet(nn.Module):
         Kernel function types in hidden layers
     kernel_scales : list (length>=1)
         Kernel function scales in hidden layers
+    device : "cpu" or "cuda"
     """ 
     
     def __init__(self, layer_sizes,kernel_types,kernel_scales,device):
@@ -131,6 +134,7 @@ class ResKernelNet(nn.Module):
         Kernel function types in hidden layers
     kernel_scales : list (length>=1)
         Kernel function scales in hidden layers
+    device : "cpu" or "cuda"
     """ 
     
     def __init__(self, layer_sizes,kernel_types,kernel_scales,device):

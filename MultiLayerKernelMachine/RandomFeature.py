@@ -27,7 +27,7 @@ class RandomFourierFeature:
     kernel : char
         Kernel to use; 'G', 'L', or 'C'
     gamma : float
-        pdf parameter
+        Kernel scale
     """
     
     def __init__(self, d, D, W=None, b=None, kernel='G', gamma=1, device='cpu'):
@@ -53,7 +53,8 @@ class RandomFourierFeature:
         Parameters
         ----------
         x : (shape=(n,d))
-            to transform; must be single dimension vector
+            to transform; 
+            
         Returns
         -------
         x : (shape=(n,D))

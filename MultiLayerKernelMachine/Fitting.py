@@ -394,7 +394,7 @@ class MultilayerFitting:
         return 2*a,coverage
     
     def HeteConformalBand(self,loss,train_x,train_y,test_x,test_y, batch):
-        """Conformal confidence interval
+        """PLUS Conformal confidence interval
         Parameters
         ----------
         loss : list
