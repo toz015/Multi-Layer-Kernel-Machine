@@ -6,6 +6,13 @@ This is a package for the implementation of the Multi-Layer Kernel Machines (MLK
 
 `pip install Multi-Layer-Kernel-Machine`
 
+See [the package in PyPi](https://pypi.org/project/Multi-Layer-Kernel-Machine/).
+
+
+## Dependencies
+- numpy, pandas, matplotlib, tqdm, scikit-learn
+- pytorch
+
 
 ## License
 
