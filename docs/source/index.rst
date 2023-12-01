@@ -26,11 +26,11 @@ License
 Multi-Layer Kernel Machine (MLKM) is released under the MIT License.
 
 
-Usage
-============
+
 
 .. toctree::
   :maxdepth: 2
+  :captions: Usages:
 
   Mydataset.md 
   RandomFeature.md
