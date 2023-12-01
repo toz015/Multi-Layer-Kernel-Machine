@@ -1,4 +1,4 @@
-Mydataset
+Fitting
 ======
 .. automodule:: Multi-Layer-Kernel-Machine.Fitting
    :members:

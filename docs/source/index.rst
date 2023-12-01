@@ -31,11 +31,16 @@ Usage
 ============
 
 .. toctree::
-   :maxdepth: 2
+  :maxdepth: 2
 
-   Mydataset 
-   RandomFeature
-   Structure
-   Fitting
-   GenerateSplit
-   DataSplitting
+  Mydataset 
+  
+  RandomFeature
+  
+  Structure
+  
+  Fitting
+  
+  GenerateSplit
+  
+  DataSplitting
