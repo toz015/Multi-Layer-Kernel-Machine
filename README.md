@@ -1,5 +1,7 @@
 # Multi-Layer Kernel Machine (MLKM)
 
+|Documentation Status| |PyPi Version|
+
 This is a package for the implementation of the Multi-Layer Kernel Machines (MLKM), which are used for multi-scale nonparametric regression and confidence bands estimation. The method integrates random feature projections with multi-layer structure.
 
 ## Installation
@@ -34,5 +36,15 @@ Multi-Layer Kernel Machine (MLKM) is released under the MIT License.
 | SML2010 | 4,137 | 20 | http://archive.ics.uci.edu/dataset/274/sml2010 |
 | California Housing | 20,640 | 8 | from sklearn.datasets import fetch_california_housing   |
 | Dry Bean | 13,611 | 16 | http://archive.ics.uci.edu/dataset/602/dry+bean+dataset |
+
+
+
+
+
+
+.. |Documentation Status| image:: https://readthedocs.org/projects/multi-layer-kernel-machine/badge/?version=latest
+   :target: https://multi-layer-kernel-machine.readthedocs.io/en/latest/?badge=latest
+.. |PyPi Version| image:: https://badge.fury.io/py/multi-layer-kernel-machine.svg
+   :target: https://badge.fury.io/py/multi-layer-kernel-machine
 
 
