@@ -1,6 +1,9 @@
 # Multi-Layer Kernel Machine (MLKM)
 
-|Documentation Status| |PyPi Version|
+[![Python package](https://github.com/ZZZhyEva/Multi-Layer-Kernel-Machine/actions/workflows/python-package.yml/badge.svg)](https://github.com/jZZZhyEva/Multi-Layer-Kernel-Machine/actions/workflows/python-package.yml)
+[![Documentation Status](https://readthedocs.org/projects/multi-layer-kernel-machine/badge/?version=latest)](https://multi-layer-kernel-machine.readthedocs.io/en/latest/?badge=latest)
+[![PyPI](https://img.shields.io/pypi/v/Multi-Layer-Kernel-Machine.svg?style=plastic&PyPI)](https://pypi.org/project/Multi-Layer-Kernel-Machine/)
+
 
 This is a package for the implementation of the Multi-Layer Kernel Machines (MLKM), which are used for multi-scale nonparametric regression and confidence bands estimation. The method integrates random feature projections with multi-layer structure.
 
@@ -40,11 +43,5 @@ Multi-Layer Kernel Machine (MLKM) is released under the MIT License.
 
 
 
-
-
-.. |Documentation Status| image:: https://readthedocs.org/projects/multi-layer-kernel-machine/badge/?version=latest
-   :target: https://multi-layer-kernel-machine.readthedocs.io/en/latest/?badge=latest
-.. |PyPi Version| image:: https://badge.fury.io/py/multi-layer-kernel-machine.svg
-   :target: https://badge.fury.io/py/multi-layer-kernel-machine
 
 
