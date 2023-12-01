@@ -15,8 +15,7 @@ Multi-Layer Kernel Machine is on pypi, and can be installed using ``pip``: ::
 
 Dependencies
 =============
-Multi-Layer Kernel Machine depends on ``numpy``, ``pandas``, ``scikit-learnand``, and ``pytorch`` 
-(see ``requirements.txt`` for version information).
+Multi-Layer Kernel Machine depends on ``numpy``, ``pandas``, ``scikit-learnand``, and ``pytorch``.
 
 Optional: ``matplotlib``, and ``tqdm``.
 
