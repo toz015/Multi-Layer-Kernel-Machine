@@ -14,15 +14,14 @@ See [the package in PyPi](https://pypi.org/project/Multi-Layer-Kernel-Machine/).
 - pytorch
 
 
-## License
-
-Multi-Layer Kernel Machine (MLKM) is released under the MIT License. 
-
-
 ## Usage 
 
 See [the documentation](https://multi-layer-kernel-machine.readthedocs.io/en/latest/).
 
+
+## License
+
+Multi-Layer Kernel Machine (MLKM) is released under the MIT License. 
 
 
 ## Reproducing Experiments
