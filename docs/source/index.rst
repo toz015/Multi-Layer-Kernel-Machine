@@ -8,8 +8,8 @@ and confidence bands construction. The method integrates random feature mapping 
 Installation
 ============
 
-Multi-Layer Kernel Machine is on pypi, and can be installed using ``pip``: ::
-
+Multi-Layer Kernel Machine is on pypi, and can be installed using ``pip``: 
+::
   pip install Multi-Layer-Kernel-Machine
 
 
