@@ -2,7 +2,7 @@
 
 # -- Project information
 
-project = 'Lumache'
+project = 'Multi-Layer-Kernel Machine'
 copyright = '2023, Huiying Zhong'
 author = 'Huiying Zhong'
 
