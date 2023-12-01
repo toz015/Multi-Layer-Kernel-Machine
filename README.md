@@ -1,6 +1,5 @@
 # Multi-Layer Kernel Machine (MLKM)
 
-[![Python package](https://github.com/ZZZhyEva/Multi-Layer-Kernel-Machine/actions/workflows/python-package.yml/badge.svg)](https://github.com/ZZZhyEva/Multi-Layer-Kernel-Machine/actions/workflows/python-package.yml)
 [![Documentation Status](https://readthedocs.org/projects/multi-layer-kernel-machine/badge/?version=latest)](https://multi-layer-kernel-machine.readthedocs.io/en/latest/?badge=latest)
 [![PyPI](https://img.shields.io/pypi/v/Multi-Layer-Kernel-Machine.svg?style=plastic&PyPI)](https://pypi.org/project/Multi-Layer-Kernel-Machine/)
 
