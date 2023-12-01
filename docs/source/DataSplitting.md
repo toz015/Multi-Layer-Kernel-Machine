@@ -34,6 +34,7 @@
     - Returns:
         - length : float, confidence interval length
         - coverage : %, confidence interval 95% coverage
+        
 **Example:**
 ```python
 from GenerateSplit import GenerateSplit

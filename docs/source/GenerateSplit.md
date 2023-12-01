@@ -18,6 +18,7 @@
 - train_loaderset : list (shape: split_fit x split_fit), training dataloader set
 - netset : list (shape: split_fit), network list
 - optimizerset : list (shape: split_fit x split_fit), chosen optimizer set
+
 **Example:**
 ```python
 from Structure import KernelNet
