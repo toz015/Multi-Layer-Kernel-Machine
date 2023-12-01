@@ -21,17 +21,7 @@ Multi-Layer Kernel Machine (MLKM) is released under the MIT License.
 
 ## Usage 
 
-### Mydataset
-
-### RandomFeature
-
-### Structure
-
-### Fitting
-
-### GenerateSplit
-
-### DataSplitting
+See [the documentation](https://multi-layer-kernel-machine.readthedocs.io/en/latest/).
 
 
 
@@ -45,3 +35,5 @@ Multi-Layer Kernel Machine (MLKM) is released under the MIT License.
 | SML2010 | 4,137 | 20 | http://archive.ics.uci.edu/dataset/274/sml2010 |
 | California Housing | 20,640 | 8 | from sklearn.datasets import fetch_california_housing   |
 | Dry Bean | 13,611 | 16 | http://archive.ics.uci.edu/dataset/602/dry+bean+dataset |
+
+
