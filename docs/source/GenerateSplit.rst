@@ -3,9 +3,31 @@ GenerateSplit
 
 .. autofunction:: Multi-Layer-Kernel-Machine.GenerateSplit.GenerateSplit
 
-For example:
+``GenerateSplit(split_fit,device_fit,net_fit,lr_fit,momentum_fit,weight_decay_fit,train_x,train_y, batch,init_weights)``
+
+**Description:** Generation of data splitting subsets.
+
+**Parameters:** 
+- split_fit : int, the number of splits (= the number of hidden layer)
+- device_fit : "cpu" or "cuda"
+- net_fit : chosen network structure
+- lr_fit : float, learning rate
+- momentum_fit : float, momentum
+- weight_decay_fit : float, penalty parameter
+- train_x,train_y  : DataFrame & Series, global data
+- batch : int, batch size
+- init_weights : function, initialization 
+
+**Returns:**
+- train_loaderset : list (shape: split_fit x split_fit), training dataloader set
+- netset : list (shape: split_fit), network list
+- optimizerset : list (shape: split_fit x split_fit), chosen optimizer set
+
+**Example:**
 
 .. code:: python
+   :number-lines:
+   
    from Structure import KernelNet
    from GenerateSplit import GenerateSplit
    def init_weights(m):

@@ -3,9 +3,73 @@ Fitting
 
 .. autoclass:: Multi-Layer-Kernel-Machine.Fitting.MultilayerFitting
 
-For example:
+``MultilayerFitting(model_fit,device_fit,train_loader_fit, test_loader_fit,epochs_fit, criterion_fit, optimizer_fit, terminate_fit=10, print_fit=10,printchoice=True)``
+
+**Description:** The procedure for prediction and estimation.
+
+**Parameters:** 
+- model_fit : chosen network structure
+- device_fit : "cpu" or "cuda"
+- train_loader_fit : dataloader for training data
+- test_loader_fit : dataloader for test data
+- epochs_fit : int, maximum epoch number
+- criterion_fit : chosen criterion
+- optimizer_fit : chosen optimizer
+- terminate_fit : int, terminate parameter
+- print_fit : print parameter
+- printchoice : bool, choice of print or not
+
+**Methods:**
+- ``fitting(train_x,train_y,test_x,test_y,batch)`` The procedure for training and testing.
+    - Parameters:
+        - train_x, train_y, test_x, test_y : DataFrame & Series, data to fit
+        - batch : int, batch size
+    - Returns:
+        - trainloss : list, trainning loss
+        - testloss : list, test loss
+        - prediction : list, model prediction for test data
+- ``Bootstrap(time_boot,bootbase,train_x,train_y,test_x,test_y, batch,init_weights)`` Bootstrap confidence interval.
+    - Parameters:
+        - time_boot : int, Boostrap times
+        - bootbase : list, basic prediction
+        - train_x, train_y, test_x, test_y : DataFrame & Series, data to fit
+        - batch : int, batch size
+        -init_weights : function, initialization 
+    - Returns:
+        - length : float, confidence interval length
+        - coverage : %, confidence interval 95% coverage
+- ``GradientBand(loss,train_x,train_y,test_x,test_y, batch,pen=0)`` Gradient-based confidence interval.
+    - Parameters:
+        - loss : list, training loss (used for RSS)
+        - train_x, train_y, test_x, test_y : DataFrame & Series, data to fit
+        - batch : int, batch size
+        - pen : float, penalty parameter
+    - Returns:
+        - length : float, confidence interval length
+        - coverage : %, confidence interval 95% coverage
+- ``HomoConformalBand(train_x,train_y,test_x,test_y, batch)`` Conformal confidence interval
+    - Parameters:
+        - train_x, train_y, test_x, test_y : DataFrame & Series, data to fit
+        - batch : int, batch size
+    - Returns:
+        - length : float, confidence interval length
+        - coverage : %, confidence interval 95% coverage
+    - References: 
+        [1] Lei, Jing, et al. "Distribution-free predictive inference for regression." Journal of the American Statistical Association 113.523 (2018): 1094-1111.
+- ``HeteConformalBand(loss,train_x,train_y,test_x,test_y, batch)`` PLUS Conformal confidence interval.
+    - Parameters:
+        - loss : list, training loss (used for RSS)
+        - train_x, train_y, test_x, test_y : DataFrame & Series, data to fit
+        - batch : int, batch size
+    - Returns:
+        - length : float, confidence interval length
+        - coverage : %, confidence interval 95% coverage
+
+**Example:**
 
 .. code:: python
+   :number-lines:
+
    from Structure import KernelNet
    from Fitting import MultilayerFitting
    def init_weights(m):
