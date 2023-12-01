@@ -33,7 +33,7 @@ Usage
   :maxdepth: 2
 
   Mydataset 
-  
+
   RandomFeature
   
   Structure
@@ -43,3 +43,5 @@ Usage
   GenerateSplit
   
   DataSplitting
+
+  API
