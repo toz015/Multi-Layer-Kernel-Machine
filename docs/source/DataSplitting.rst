@@ -8,6 +8,7 @@ DataSplitting
 **Description:** The procedure for prediction and estimation with data-splitting.
 
 **Parameters:** 
+
 - split_fit : int, the number of splits (= the number of hidden layer)
 - modelset_fit : list (shape: split_fit), machine list
 - device_fit : "cpu" or "cuda"
@@ -21,6 +22,7 @@ DataSplitting
 - printchoice : bool, choice of print or not
 
 **Methods:**
+
 - ``fitting(train_x,train_y,test_x,test_y,batch)`` The procedure for training and testing.
     - Parameters:
         - train_x, train_y, test_x, test_y : DataFrame & Series, data to fit

@@ -8,6 +8,7 @@ Fitting
 **Description:** The procedure for prediction and estimation.
 
 **Parameters:** 
+
 - model_fit : chosen network structure
 - device_fit : "cpu" or "cuda"
 - train_loader_fit : dataloader for training data
@@ -20,6 +21,7 @@ Fitting
 - printchoice : bool, choice of print or not
 
 **Methods:**
+
 - ``fitting(train_x,train_y,test_x,test_y,batch)`` The procedure for training and testing.
     - Parameters:
         - train_x, train_y, test_x, test_y : DataFrame & Series, data to fit

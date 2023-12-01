@@ -9,6 +9,7 @@ RandomFeature
 
 
 **Parameters:** 
+
 - d : int, Input space dimension
 - D : int, Feature space dimension
 - kernel : char, Kernel to use; 'G', 'L', or 'C'

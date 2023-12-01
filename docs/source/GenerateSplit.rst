@@ -8,6 +8,7 @@ GenerateSplit
 **Description:** Generation of data splitting subsets.
 
 **Parameters:** 
+
 - split_fit : int, the number of splits (= the number of hidden layer)
 - device_fit : "cpu" or "cuda"
 - net_fit : chosen network structure
@@ -19,6 +20,7 @@ GenerateSplit
 - init_weights : function, initialization 
 
 **Returns:**
+
 - train_loaderset : list (shape: split_fit x split_fit), training dataloader set
 - netset : list (shape: split_fit), network list
 - optimizerset : list (shape: split_fit x split_fit), chosen optimizer set

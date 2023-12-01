@@ -20,6 +20,7 @@ Structure
 **Description:** Custom multi-layer structures for: common neural network, ResNet, multi-layer kernel machine (MTKM), and residual kernel machine (RKM).
 
 **Parameters:** 
+
 - layer_sizes : list (length>=3), Neuron numbers in each layer, including input and output layer
 - kernel_types : list (length>=1), Kernel function types in hidden layers
 - kernel_scales : list (length>=1), Kernel function scales in hidden layers
