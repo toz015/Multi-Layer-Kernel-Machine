@@ -59,4 +59,4 @@ Run [codes for real data analysis](https://github.com/ZZZhyEva/Multi-Layer-Kerne
 
 
 ### Package Usage
-Our experiments can also be carried out using our Multi-Layer-Kernel-Machine package. We provide an example for dataset [MSD](https://github.com/ZZZhyEva/Multi-Layer-Kernel-Machine/blob/main/tests/package%20example%20usage(MSD).ipynb) as a quick start.
+Our experiments can also be carried out using our Multi-Layer-Kernel-Machine package. We provide [an example for dataset MSD](https://github.com/ZZZhyEva/Multi-Layer-Kernel-Machine/blob/main/tests/package%20example%20usage(MSD).ipynb) as a quick start.
