@@ -36,8 +36,8 @@ Multi-Layer Kernel Machine (MLKM) is released under the MIT License.
 | --- | --- | --- | --- |
 | YearPredictionMSD | 515,345 | 90 | Download through [YearPredictionMSD](http://archive.ics.uci.edu/dataset/203/yearpredictionmsd) |
 | SML2010 | 4,137 | 20 | Download through [SML2010](http://archive.ics.uci.edu/dataset/274/sml2010) |
-| California Housing | 20,640 | 8 | `from sklearn.datasets import fetch_california_housing`   |
-| Dry Bean | 13,611 | 16 | Download through [Dry Bean Dataset](http://archive.ics.uci.edu/dataset/602/dry+bean+dataset) |
+| CaliforniaHousing | 20,640 | 8 | `from sklearn.datasets import fetch_california_housing`   |
+| DryBean | 13,611 | 16 | Download through [Dry Bean Dataset](http://archive.ics.uci.edu/dataset/602/dry+bean+dataset) |
 
 
 ### Simulations
@@ -59,4 +59,4 @@ Run [codes for real data analysis](https://github.com/ZZZhyEva/Multi-Layer-Kerne
 
 
 ### Package Usage
-Our experiments can also be carried out using our Multi-Layer-Kernel-Machine package. Install it through `pip` and quickly start following an example for  [package usage example(MSD)](https://github.com/ZZZhyEva/Multi-Layer-Kernel-Machine/blob/main/tests/package%20example%20usage(MSD).ipynb).
+Our experiments can also be carried out using our Multi-Layer-Kernel-Machine package. We provide an example for dataset [MSD](https://github.com/ZZZhyEva/Multi-Layer-Kernel-Machine/blob/main/tests/package%20example%20usage(MSD).ipynb) as a quick start.
