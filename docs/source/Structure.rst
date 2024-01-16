@@ -9,7 +9,7 @@ Structure
 
 ``class.ResKernelNet(layer_sizes,kernel_types,kernel_scales,device)``
 
-**Description:** Custom multi-layer structures for: common neural network (NN), ResNet, multi-layer kernel machine (MTKM), and residual kernel machine (RKM).
+**Description:** Custom multi-layer structures for: common neural network (NN), ResNet, multi-layer kernel machine (MLKM), and residual kernel machine (RKM).
 
 **Parameters:** 
 

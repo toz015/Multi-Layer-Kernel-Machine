@@ -20,12 +20,9 @@ GenerateSplit
 
 **Returns:**
 
-- train_loaderset : list, shape = (split_fit x split_fit), training dataloader set,
-there are L orders, each order contains L subsamples
-- netset : list, shape = (split_fit), network set,
-each network is specific to one order
-- optimizerset : list, shape = (split_fit x split_fit), chosen optimizer set,
-each optimizer is specific to one subsamples of one order
+- train_loaderset : list, shape = (split_fit x split_fit), training dataloader set, there are L orders, each order contains L subsamples
+- netset : list, shape = (split_fit), network set, each network is specific to one order
+- optimizerset : list, shape = (split_fit x split_fit), chosen optimizer set, each optimizer is specific to one subsamples of one order
 
 **Example:**
 

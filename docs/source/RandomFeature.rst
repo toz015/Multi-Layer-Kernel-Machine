@@ -1,7 +1,7 @@
 RandomFeature
 ======
 
-``class.RandomFourierFeature(d,D,kernel,gamma,device)``
+``class.RandomFourierFeature(d, D, W=None, b=None, kernel='G', gamma=1, device='cpu')``
 
 **Description:** Random Fourier feature.
 

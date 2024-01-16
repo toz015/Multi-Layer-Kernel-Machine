@@ -1,7 +1,7 @@
 Fitting
 ======
 
-``MultilayerFitting(model_fit,device_fit,train_loader_fit, test_loader_fit,epochs_fit, criterion_fit, optimizer_fit, terminate_fit=10, print_fit=10,printchoice=True)``
+``MultilayerFitting(model_fit,device_fit,train_loader_fit, test_loader_fit,epochs_fit, criterion_fit, optimizer_fit, terminate_fit=100, print_fit=100,printchoice=True)``
 
 **Description:** The procedure for estimation and inference.
 
@@ -14,10 +14,8 @@ Fitting
 - epochs_fit : int, maximum epoch number
 - criterion_fit : chosen criterion
 - optimizer_fit : chosen optimizer
-- terminate_fit : int, terminate parameter, 
-terminate if the loss has no significant improvement over T consecutive epochs, default=100
-- print_fit : int, print parameter for outputting results,
-print the results after every T epochs, default=100
+- terminate_fit : int, terminate parameter, terminate if the loss has no significant improvement over T consecutive epochs, default=100
+- print_fit : int, print parameter for outputting results, print the results after every T epochs, default=100
 - printchoice : bool, choice of print or not, default=True
 
 **Methods:**

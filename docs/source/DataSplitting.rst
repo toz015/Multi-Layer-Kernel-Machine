@@ -1,7 +1,7 @@
 DataSplitting
 ======
 
-``DataSplitting(split_fit,modelset_fit,device_fit,train_loaderset_fit, test_loader_fit, epochs_fit, criterion_fit, optimizerset_fit, terminate_fit=10, print_fit=10,printchoice=True``
+``DataSplitting(split_fit,modelset_fit,device_fit,train_loaderset_fit, test_loader_fit, epochs_fit, criterion_fit, optimizerset_fit, terminate_fit=100, print_fit=100,printchoice=True)``
 
 **Description:** The procedure for prediction and estimation with data-splitting.
 
@@ -15,10 +15,8 @@ DataSplitting
 - epochs_fit : int, maximum epoch number
 - criterion_fit : chosen criterion
 - optimizerset_fit : list, shape = (split_fit x split_fit), chosen optimizer set
-- terminate_fit : int, terminate parameter, 
-terminate if the loss has no significant improvement over T consecutive epochs, default=100
-- print_fit : int, print parameter for outputting results,
-print the results after every T epochs, default=100
+- terminate_fit : int, terminate parameter, terminate if the loss has no significant improvement over T consecutive epochs, default=100
+- print_fit : int, print parameter for outputting results, print the results after every T epochs, default=100
 - printchoice : bool, choice of print or not, default=True
 
 **Methods:**
