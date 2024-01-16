@@ -44,9 +44,9 @@ Multi-Layer Kernel Machine (MLKM) is released under the MIT License.
 
 Run [Simulation Examples](https://github.com/ZZZhyEva/Multi-Layer-Kernel-Machine/tree/main/Numerical%20Examples/Simulation_Examples) directly.
 
-To obtain the results in Example 1, run `Sparse Additive - d=x.ipynb` for `x` $\in${4,8,16,32,64,128}.
+To obtain the results in Example 1, run `Sparse Additive - d=x.ipynb` for `x` $\in$ {4,8,16,32,64,128}.
 
-To obtain the results in Example 2, run `ATLAS model - d=x.ipynb` for `x` $\in${4,8,16,32,64,128}.
+To obtain the results in Example 2, run `ATLAS model - d=x.ipynb` for `x` $\in$ {4,8,16,32,64,128}.
 
 To obtain the results in Example 3, run `Additive (function) (distribution).ipynb` for additive models with `function` $\in$ {Trigonometric, sin-ration, mix} and `distribution` $\in$ {1 (uniform), 2 (multivariate normal)}.
 
