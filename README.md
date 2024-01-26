@@ -61,7 +61,7 @@ Run [Real Data Examples](https://github.com/ZZZhyEva/Multi-Layer-Kernel-Machine/
 
 To obtain the results of temperature forecasting data, run `RealData_SML.ipynb`. 
 
-To obtain the results of audio feature data, run `RealData_MSD.ipynb` for small-scale CPU training and run `Autodl_MSD.ipynb` for large-scale GPU training. Please  specify `cuda:0/1` for GPU training.
+To obtain the results of audio feature data, run `RealData_MSD.ipynb` for small-scale data and run `RealData_large_MSD.ipynb` for large-scale data.
 
 To obtain the results in Appendix, run `RealData_DryBean.ipynb`.
 
