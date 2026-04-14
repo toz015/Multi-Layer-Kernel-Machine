@@ -1,0 +1,210 @@
+PyTorch version: 2.9.1
+CUDA available: False
+Full MSD dataset: 515,345 samples × 90 features
+Year range: 1922–2011
+Using device: cpu
+run_one_fold() and _plot_fold() defined.
+====================================================================
+  Running Fold 1/10  (rows 0–51,533)
+====================================================================
+/Users/wanghd/Desktop/Research/Dai/Multi_layer_kernel_machines/Multi-Layer-Kernel-Machine/venv/lib/python3.13/site-packages/linear_operator/utils/cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-06 to the diagonal
+  warnings.warn(
+/Users/wanghd/Desktop/Research/Dai/Multi_layer_kernel_machines/Multi-Layer-Kernel-Machine/venv/lib/python3.13/site-packages/gpytorch/models/exact_gp.py:296: GPInputWarning: The input matches the stored training data. Did you forget to call model.train()?
+  warnings.warn(
+
+  ── Fold 1 results ──
+  Method          Train MSE   Test MSE  Time(s)   CPU MB
+  ------------------------------------------------------
+  RF+Ridge           0.9315     1.1406      1.6    127.5
+  DNN                0.2008     1.0830    326.6    131.0
+  ResNet             0.1056     1.1577   2511.5     25.8
+  DKL                0.6759     1.0552  35908.2  16836.0
+  DGP                1.0001     1.1809   4395.0     67.7
+  MLKM               0.7442     0.9361    378.8     33.2
+  ResKernelNet       0.2352     1.1805    536.3     93.5
+
+  Conformal (α=0.05):
+  DNN          coverage=0.9374  interval=4.3904  q_hat=2.1952
+  ResNet       coverage=0.9364  interval=4.4004  q_hat=2.2002
+  MLKM         coverage=0.9286  interval=3.7115  q_hat=1.8557
+  RKN          coverage=0.9316  interval=4.0999  q_hat=2.0499
+  Metrics saved → msd_results/fold01_metrics.csv
+/Users/wanghd/Desktop/Research/Dai/Multi_layer_kernel_machines/Multi-Layer-Kernel-Machine/Numerical Examples/Real_Data_Examples/run_msd_fold1.py:868: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/Users/wanghd/Desktop/Research/Dai/Multi_layer_kernel_machines/Multi-Layer-Kernel-Machine/Numerical Examples/Real_Data_Examples/run_msd_fold1.py:902: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/Users/wanghd/Desktop/Research/Dai/Multi_layer_kernel_machines/Multi-Layer-Kernel-Machine/Numerical Examples/Real_Data_Examples/run_msd_fold1.py:922: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+  Plots saved → msd_results/msd_fold01_*.png
+
+Fold 1 complete.  Results → msd_results/
+Fold 1 — train: 36,073  calib: 7,730  test: 7,731
+D sweep: [64, 96, 128, 160, 192, 224, 256, 288, 320, 352, 384, 416, 448, 480, 512]
+
+─── D = 64 ───
+  MLKM D=64 FAILED: run_mlkm() got multiple values for argument 'D1'
+  MLKM          train=nan  test=nan  time=nans  mem=nanMB  CI±=nan
+  ResKernelNet D=64 FAILED: run_reskernelnet() got multiple values for argument 'D1'
+  ResKernelNet  train=nan  test=nan  time=nans  mem=nanMB  CI±=nan
+
+─── D = 96 ───
+  MLKM D=96 FAILED: run_mlkm() got multiple values for argument 'D1'
+  MLKM          train=nan  test=nan  time=nans  mem=nanMB  CI±=nan
+  ResKernelNet D=96 FAILED: run_reskernelnet() got multiple values for argument 'D1'
+  ResKernelNet  train=nan  test=nan  time=nans  mem=nanMB  CI±=nan
+
+─── D = 128 ───
+  MLKM D=128 FAILED: run_mlkm() got multiple values for argument 'D1'
+  MLKM          train=nan  test=nan  time=nans  mem=nanMB  CI±=nan
+  ResKernelNet D=128 FAILED: run_reskernelnet() got multiple values for argument 'D1'
+  ResKernelNet  train=nan  test=nan  time=nans  mem=nanMB  CI±=nan
+
+─── D = 160 ───
+  MLKM D=160 FAILED: run_mlkm() got multiple values for argument 'D1'
+  MLKM          train=nan  test=nan  time=nans  mem=nanMB  CI±=nan
+  ResKernelNet D=160 FAILED: run_reskernelnet() got multiple values for argument 'D1'
+  ResKernelNet  train=nan  test=nan  time=nans  mem=nanMB  CI±=nan
+
+─── D = 192 ───
+  MLKM D=192 FAILED: run_mlkm() got multiple values for argument 'D1'
+  MLKM          train=nan  test=nan  time=nans  mem=nanMB  CI±=nan
+  ResKernelNet D=192 FAILED: run_reskernelnet() got multiple values for argument 'D1'
+  ResKernelNet  train=nan  test=nan  time=nans  mem=nanMB  CI±=nan
+
+─── D = 224 ───
+  MLKM D=224 FAILED: run_mlkm() got multiple values for argument 'D1'
+  MLKM          train=nan  test=nan  time=nans  mem=nanMB  CI±=nan
+  ResKernelNet D=224 FAILED: run_reskernelnet() got multiple values for argument 'D1'
+  ResKernelNet  train=nan  test=nan  time=nans  mem=nanMB  CI±=nan
+
+─── D = 256 ───
+  MLKM D=256 FAILED: run_mlkm() got multiple values for argument 'D1'
+  MLKM          train=nan  test=nan  time=nans  mem=nanMB  CI±=nan
+  ResKernelNet D=256 FAILED: run_reskernelnet() got multiple values for argument 'D1'
+  ResKernelNet  train=nan  test=nan  time=nans  mem=nanMB  CI±=nan
+
+─── D = 288 ───
+  MLKM D=288 FAILED: run_mlkm() got multiple values for argument 'D1'
+  MLKM          train=nan  test=nan  time=nans  mem=nanMB  CI±=nan
+  ResKernelNet D=288 FAILED: run_reskernelnet() got multiple values for argument 'D1'
+  ResKernelNet  train=nan  test=nan  time=nans  mem=nanMB  CI±=nan
+
+─── D = 320 ───
+  MLKM D=320 FAILED: run_mlkm() got multiple values for argument 'D1'
+  MLKM          train=nan  test=nan  time=nans  mem=nanMB  CI±=nan
+  ResKernelNet D=320 FAILED: run_reskernelnet() got multiple values for argument 'D1'
+  ResKernelNet  train=nan  test=nan  time=nans  mem=nanMB  CI±=nan
+
+─── D = 352 ───
+  MLKM D=352 FAILED: run_mlkm() got multiple values for argument 'D1'
+  MLKM          train=nan  test=nan  time=nans  mem=nanMB  CI±=nan
+  ResKernelNet D=352 FAILED: run_reskernelnet() got multiple values for argument 'D1'
+  ResKernelNet  train=nan  test=nan  time=nans  mem=nanMB  CI±=nan
+
+─── D = 384 ───
+  MLKM D=384 FAILED: run_mlkm() got multiple values for argument 'D1'
+  MLKM          train=nan  test=nan  time=nans  mem=nanMB  CI±=nan
+  ResKernelNet D=384 FAILED: run_reskernelnet() got multiple values for argument 'D1'
+  ResKernelNet  train=nan  test=nan  time=nans  mem=nanMB  CI±=nan
+
+─── D = 416 ───
+  MLKM D=416 FAILED: run_mlkm() got multiple values for argument 'D1'
+  MLKM          train=nan  test=nan  time=nans  mem=nanMB  CI±=nan
+  ResKernelNet D=416 FAILED: run_reskernelnet() got multiple values for argument 'D1'
+  ResKernelNet  train=nan  test=nan  time=nans  mem=nanMB  CI±=nan
+
+─── D = 448 ───
+  MLKM D=448 FAILED: run_mlkm() got multiple values for argument 'D1'
+  MLKM          train=nan  test=nan  time=nans  mem=nanMB  CI±=nan
+  ResKernelNet D=448 FAILED: run_reskernelnet() got multiple values for argument 'D1'
+  ResKernelNet  train=nan  test=nan  time=nans  mem=nanMB  CI±=nan
+
+─── D = 480 ───
+  MLKM D=480 FAILED: run_mlkm() got multiple values for argument 'D1'
+  MLKM          train=nan  test=nan  time=nans  mem=nanMB  CI±=nan
+  ResKernelNet D=480 FAILED: run_reskernelnet() got multiple values for argument 'D1'
+  ResKernelNet  train=nan  test=nan  time=nans  mem=nanMB  CI±=nan
+
+─── D = 512 ───
+  MLKM D=512 FAILED: run_mlkm() got multiple values for argument 'D1'
+  MLKM          train=nan  test=nan  time=nans  mem=nanMB  CI±=nan
+  ResKernelNet D=512 FAILED: run_reskernelnet() got multiple values for argument 'D1'
+  ResKernelNet  train=nan  test=nan  time=nans  mem=nanMB  CI±=nan
+
+Saved: msd_d_sweep.csv
+
+  D        model  train_mse  test_mse  runtime  cpu_peak_mb  conf_half
+ 64         MLKM        NaN       NaN      NaN          NaN        NaN
+ 64 ResKernelNet        NaN       NaN      NaN          NaN        NaN
+ 96         MLKM        NaN       NaN      NaN          NaN        NaN
+ 96 ResKernelNet        NaN       NaN      NaN          NaN        NaN
+128         MLKM        NaN       NaN      NaN          NaN        NaN
+128 ResKernelNet        NaN       NaN      NaN          NaN        NaN
+160         MLKM        NaN       NaN      NaN          NaN        NaN
+160 ResKernelNet        NaN       NaN      NaN          NaN        NaN
+192         MLKM        NaN       NaN      NaN          NaN        NaN
+192 ResKernelNet        NaN       NaN      NaN          NaN        NaN
+224         MLKM        NaN       NaN      NaN          NaN        NaN
+224 ResKernelNet        NaN       NaN      NaN          NaN        NaN
+256         MLKM        NaN       NaN      NaN          NaN        NaN
+256 ResKernelNet        NaN       NaN      NaN          NaN        NaN
+288         MLKM        NaN       NaN      NaN          NaN        NaN
+288 ResKernelNet        NaN       NaN      NaN          NaN        NaN
+320         MLKM        NaN       NaN      NaN          NaN        NaN
+320 ResKernelNet        NaN       NaN      NaN          NaN        NaN
+352         MLKM        NaN       NaN      NaN          NaN        NaN
+352 ResKernelNet        NaN       NaN      NaN          NaN        NaN
+384         MLKM        NaN       NaN      NaN          NaN        NaN
+384 ResKernelNet        NaN       NaN      NaN          NaN        NaN
+416         MLKM        NaN       NaN      NaN          NaN        NaN
+416 ResKernelNet        NaN       NaN      NaN          NaN        NaN
+448         MLKM        NaN       NaN      NaN          NaN        NaN
+448 ResKernelNet        NaN       NaN      NaN          NaN        NaN
+480         MLKM        NaN       NaN      NaN          NaN        NaN
+480 ResKernelNet        NaN       NaN      NaN          NaN        NaN
+512         MLKM        NaN       NaN      NaN          NaN        NaN
+512 ResKernelNet        NaN       NaN      NaN          NaN        NaN
+/Users/wanghd/Desktop/Research/Dai/Multi_layer_kernel_machines/Multi-Layer-Kernel-Machine/Numerical Examples/Real_Data_Examples/run_msd_fold1.py:1262: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+Saved: msd_d_sweep.png
+
+── D-Sensitivity Summary Table ─────────────────────────────────────
+Model              D    TrainMSE     TestMSE    Runtime(s)   CPUPeak(MB)       CI±
+────────────────────────────────────────────────────────────────────────────────
+MLKM              64         nan         nan           nan           nan       nan
+MLKM              96         nan         nan           nan           nan       nan
+MLKM             128         nan         nan           nan           nan       nan
+MLKM             160         nan         nan           nan           nan       nan
+MLKM             192         nan         nan           nan           nan       nan
+MLKM             224         nan         nan           nan           nan       nan
+MLKM             256         nan         nan           nan           nan       nan
+MLKM             288         nan         nan           nan           nan       nan
+MLKM             320         nan         nan           nan           nan       nan
+MLKM             352         nan         nan           nan           nan       nan
+MLKM             384         nan         nan           nan           nan       nan
+MLKM             416         nan         nan           nan           nan       nan
+MLKM             448         nan         nan           nan           nan       nan
+MLKM             480         nan         nan           nan           nan       nan
+MLKM             512         nan         nan           nan           nan       nan
+ResKernelNet      64         nan         nan           nan           nan       nan
+ResKernelNet      96         nan         nan           nan           nan       nan
+ResKernelNet     128         nan         nan           nan           nan       nan
+ResKernelNet     160         nan         nan           nan           nan       nan
+ResKernelNet     192         nan         nan           nan           nan       nan
+ResKernelNet     224         nan         nan           nan           nan       nan
+ResKernelNet     256         nan         nan           nan           nan       nan
+ResKernelNet     288         nan         nan           nan           nan       nan
+ResKernelNet     320         nan         nan           nan           nan       nan
+ResKernelNet     352         nan         nan           nan           nan       nan
+ResKernelNet     384         nan         nan           nan           nan       nan
+ResKernelNet     416         nan         nan           nan           nan       nan
+ResKernelNet     448         nan         nan           nan           nan       nan
+ResKernelNet     480         nan         nan           nan           nan       nan
+ResKernelNet     512         nan         nan           nan           nan       nan
+
+── Effective D* (within 5 % of best MSE) ─────────────────────────
+  MLKM          best_MSE=nan  5%-threshold=nan  D_eff*=512
+  ResKernelNet  best_MSE=nan  5%-threshold=nan  D_eff*=512
+
+
+All done. Check msd_results/ for all outputs.
