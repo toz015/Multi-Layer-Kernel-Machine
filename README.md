@@ -37,12 +37,11 @@ Multi-Layer Kernel Machine (MLKM) is released under the MIT License.
 | --- | --- | --- | --- |
 | YearPredictionMSD | 515,345 | 90 | Download through [YearPredictionMSD](http://archive.ics.uci.edu/dataset/203/yearpredictionmsd) |
 | SML2010 | 4,137 | 20 | Download through [SML2010](http://archive.ics.uci.edu/dataset/274/sml2010) |
-| DryBean | 13,611 | 16 | Download through [Dry Bean Dataset](http://archive.ics.uci.edu/dataset/602/dry+bean+dataset) |
 
 
 ### Simulations
 
-Run [Simulation Examples](https://github.com/ZZZhyEva/Multi-Layer-Kernel-Machine/tree/main/Numerical%20Examples/Simulation_Examples) directly.
+Run [Simulation Examples](https://github.com/toz015/Multi-Layer-Kernel-Machine/tree/main/Numerical%20Examples/Simulation_Examples) directly.
 
 To obtain the results in Example 1, run `Sparse Additive - d=x.ipynb` for `x` $\in$ {4,8,16,32,64,128}.
 
@@ -50,21 +49,17 @@ To obtain the results in Example 2, run `ATLAS model - d=x.ipynb` for `x` $\in$ 
 
 To obtain the results in Example 3, run `Additive (function) (distribution).ipynb` for additive models with `function` $\in$ {Trigonometric, sin-ration, mix} and `distribution` $\in$ {1 (uniform), 2 (multivariate normal)}.
 
-To obtain the results in Example 4, run `Example4.ipynb`.
-
-To obtain the results in Appendix, run codes in `Additional Examples`.
+To reproduce the two-dimensional examples in the Appendix, run `Two-Dimensional_Example_1_final.ipynb` and `Two-Dimensional_Example_3_final.ipynb` (and their `_matern_final` Matérn-kernel variants).
 
 
 ### Real Data Analysis
 
-Run [Real Data Examples](https://github.com/ZZZhyEva/Multi-Layer-Kernel-Machine/tree/main/Numerical%20Examples/Real_Data_Examples) after downloading and unzipping the data. Store the data and codes in the same path and don't change the filenames of them.
+Run [Real Data Examples](https://github.com/toz015/Multi-Layer-Kernel-Machine/tree/main/Numerical%20Examples/Real_Data_Examples) after downloading and unzipping the data. Store the data and codes in the same path and don't change the filenames of them.
 
-To obtain the results of temperature forecasting data, run `RealData_SML.ipynb`. 
+To obtain the results of temperature forecasting data, run `RealData_SML_final.ipynb`.
 
-To obtain the results of audio feature data, run `RealData_MSD.ipynb` for small-scale data and run `RealData_large_MSD.ipynb` for large-scale data.
-
-To obtain the results in Appendix, run `RealData_DryBean.ipynb`.
+To obtain the results of audio feature data, run `RealData_MSD_final.ipynb`.
 
 
 ### Package Usage
-Our experiments can also be carried out using our Multi-Layer-Kernel-Machine package. We provide [an example for dataset MSD](https://github.com/ZZZhyEva/Multi-Layer-Kernel-Machine/blob/main/tests/package%20example%20usage(MSD).ipynb) as a quick start.
+Our experiments can also be carried out using our Multi-Layer-Kernel-Machine package. We provide [an example for dataset MSD](https://github.com/toz015/Multi-Layer-Kernel-Machine/blob/main/tests/package%20example%20usage(MSD).ipynb) as a quick start.
