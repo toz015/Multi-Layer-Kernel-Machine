@@ -31,35 +31,36 @@ Multi-Layer Kernel Machine (MLKM) is released under the MIT License.
 
 ## Reproducing Experiments
 
-### Data 
+The notebooks below reproduce every numerical result in the paper. Notebooks corresponding to earlier draft experiments are kept under `archive/` folders for reference.
 
-| Datasets | Instances |  Attributes | Source |
+### Data
+
+| Datasets | Instances | Attributes | Source |
 | --- | --- | --- | --- |
-| YearPredictionMSD | 515,345 | 90 | Download through [YearPredictionMSD](http://archive.ics.uci.edu/dataset/203/yearpredictionmsd) |
-| SML2010 | 4,137 | 20 | Download through [SML2010](http://archive.ics.uci.edu/dataset/274/sml2010) |
+| YearPredictionMSD | 515,345 | 90 | Download from [YearPredictionMSD](http://archive.ics.uci.edu/dataset/203/yearpredictionmsd) |
+| SML2010 | 4,137 | 20 | Download from [SML2010](http://archive.ics.uci.edu/dataset/274/sml2010) |
 
 
-### Simulations
+### Real Data Analysis (Section 5)
 
-Run [Simulation Examples](https://github.com/toz015/Multi-Layer-Kernel-Machine/tree/main/Numerical%20Examples/Simulation_Examples) directly.
+Notebooks live under [`Numerical Examples/Real_Data_Examples/`](https://github.com/toz015/Multi-Layer-Kernel-Machine/tree/main/Numerical%20Examples/Real_Data_Examples). Place the downloaded data alongside the notebook and keep the original filenames.
 
-To obtain the results in Example 1, run `Sparse Additive - d=x.ipynb` for `x` $\in$ {4,8,16,32,64,128}.
-
-To obtain the results in Example 2, run `ATLAS model - d=x.ipynb` for `x` $\in$ {4,8,16,32,64,128}.
-
-To obtain the results in Example 3, run `Additive (function) (distribution).ipynb` for additive models with `function` $\in$ {Trigonometric, sin-ration, mix} and `distribution` $\in$ {1 (uniform), 2 (multivariate normal)}.
-
-To reproduce the two-dimensional examples in the Appendix, run `Two-Dimensional_Example_1_final.ipynb` and `Two-Dimensional_Example_3_final.ipynb` (and their `_matern_final` Matérn-kernel variants).
+| Paper section | Dataset | Notebook |
+| --- | --- | --- |
+| §5.1 — Temperature forecasting | SML2010 | [`RealData_SML_final.ipynb`](https://github.com/toz015/Multi-Layer-Kernel-Machine/blob/main/Numerical%20Examples/Real_Data_Examples/RealData_SML_final.ipynb) |
+| §5.2 — Audio feature data | MillionSongs (10% subset) | [`RealData_MSD_final.ipynb`](https://github.com/toz015/Multi-Layer-Kernel-Machine/blob/main/Numerical%20Examples/Real_Data_Examples/RealData_MSD_final.ipynb) |
 
 
-### Real Data Analysis
+### Simulations (Appendix A.4)
 
-Run [Real Data Examples](https://github.com/toz015/Multi-Layer-Kernel-Machine/tree/main/Numerical%20Examples/Real_Data_Examples) after downloading and unzipping the data. Store the data and codes in the same path and don't change the filenames of them.
+Notebooks live under [`Numerical Examples/Simulation_Examples/Additional Examples/`](https://github.com/toz015/Multi-Layer-Kernel-Machine/tree/main/Numerical%20Examples/Simulation_Examples/Additional%20Examples).
 
-To obtain the results of temperature forecasting data, run `RealData_SML_final.ipynb`.
-
-To obtain the results of audio feature data, run `RealData_MSD_final.ipynb`.
+| Paper section | Setting | Notebook |
+| --- | --- | --- |
+| A.4.1 — Examples A.25, A.26 | 2D Gaussian-mixture target, Gaussian RFF, varying $n$, $\sigma$, $D$ | [`Two-Dimensional_Example_1_final.ipynb`](https://github.com/toz015/Multi-Layer-Kernel-Machine/blob/main/Numerical%20Examples/Simulation_Examples/Additional%20Examples/Two-Dimensional_Example_1_final.ipynb) |
+| Example A.27 | Same target, Matérn kernel, $\nu \in \{15, 20, 30\}$ | [`Two-Dimensional_Example_1_matern_final.ipynb`](https://github.com/toz015/Multi-Layer-Kernel-Machine/blob/main/Numerical%20Examples/Simulation_Examples/Additional%20Examples/Two-Dimensional_Example_1_matern_final.ipynb) |
 
 
 ### Package Usage
-Our experiments can also be carried out using our Multi-Layer-Kernel-Machine package. We provide [an example for dataset MSD](https://github.com/toz015/Multi-Layer-Kernel-Machine/blob/main/tests/package%20example%20usage(MSD).ipynb) as a quick start.
+
+Experiments can also be reproduced through the `Multi-Layer-Kernel-Machine` package. See [an MSD quick-start example](https://github.com/toz015/Multi-Layer-Kernel-Machine/blob/main/tests/package%20example%20usage(MSD).ipynb).
